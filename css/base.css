@@ -4,7 +4,8 @@ body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, d
   padding: 0; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  /* 根元素是10px;  @charset6*62.@for%=10   默认再pc端根元素会解析成12px*/ }
 
 body {
   font: 12px/1.5 'Microsoft YaHei','宋体', Tahoma, Arial, sans-serif;
