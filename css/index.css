@@ -1,0 +1,93 @@
+.index_header {
+  width: 96%;
+  margin: 0 auto;
+  height: 4.4rem;
+  line-height: 1.6rem;
+  background: #FFFFFF;
+  margin-top: 1rem;
+  border-radius: .5rem;
+  display: flex; }
+  .index_header .hlist {
+    flex: 1;
+    text-align: center;
+    margin-top: .2rem;
+    border-right: 1px solid #eee; }
+    .index_header .hlist img {
+      width: 2rem;
+      height: 2rem;
+      margin: 0 auto; }
+    .index_header .hlist:last-child {
+      border-right: none; }
+
+.item .item_cate {
+  text-align: center;
+  padding: .5rem; }
+.item .item_list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 .5rem; }
+  .item .item_list li {
+    width: 33.3%;
+    padding: .5rem;
+    box-sizing: border-box; }
+    .item .item_list li .inner {
+      background: #FFFFFF;
+      width: 100%;
+      border-radius: .5rem;
+      overflow: hidden; }
+      .item .item_list li .inner img {
+        width: 100%; }
+      .item .item_list li .inner p {
+        padding: .2rem .5rem; }
+      .item .item_list li .inner .title {
+        font-weight: bold; }
+
+.left_cate {
+  transition: all 1s;
+  transform: translate(-100%, 0);
+  width: 7rem;
+  height: 100%;
+  position: fixed;
+  background: #eee;
+  top: 0px;
+  left: 0px;
+  z-index: 2; }
+  .left_cate ul {
+    padding: .5rem;
+    position: absolute;
+    height: 100%;
+    z-index: 3;
+    background: #EEEEEE; }
+    .left_cate ul li {
+      line-height: 4rem; }
+  .left_cate .nav_cate {
+    position: absolute;
+    right: -3.5rem;
+    background: rgba(132, 128, 128, 0.8);
+    top: 33%;
+    z-index: 2;
+    width: 5.5rem;
+    height: 4.4rem;
+    text-align: center;
+    border-radius: 0rem 50% 50% 0; }
+    .left_cate .nav_cate img {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin-left: 1.2rem;
+      margin-top: .5rem; }
+    .left_cate .nav_cate p {
+      color: #FFFFFF;
+      margin-left: 1.2rem;
+      margin-top: -.5rem; }
+
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(132, 128, 128, 0.4);
+  left: 0px;
+  top: 0px;
+  display: none; }
+
+/*# sourceMappingURL=index.css.map */
