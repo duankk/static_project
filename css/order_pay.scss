@@ -1,0 +1,98 @@
+.order_content{
+    
+    padding: 1rem;
+    .order_pay{
+        
+        border-radius: .5rem;
+        background: #FFFFFF;
+        
+        h3{
+            font-size: 2rem;
+            text-align: center;
+            line-height: 4rem;
+            padding-top: 1rem;
+        }
+        
+        .order_pay_detail{
+            display: flex;
+            padding: 1rem;
+            border-bottom: 1px solid #EEEEEE;
+            
+            .d_num{
+               flex: 1; 
+            }
+            
+            .p_num{
+                flex: 1;
+            }
+            
+            .order_time{
+               flex: 1; 
+            }
+        }
+        
+        .order_pay_info{
+            display: flex;
+            line-height: 5rem;
+            padding: 1rem;
+            
+            .price_info{
+                flex: 1;
+                
+                .price{
+                    font-size: 2rem;
+                    color: red;
+                }
+            }
+            
+            .pay_button{
+                width: 10rem;
+                text-align: center;
+                border: 1px solid #FF0000;
+                height: 3rem;
+                line-height: 3rem;
+                margin-top: 1rem;
+                border-radius: .5rem;
+                background: red;
+                color: #FFFFFF;
+            }
+        }
+    }
+    
+    
+    //菜单详情
+    .order_list{
+        margin-top: 1rem;
+        background: #FFFFFF;
+        border-radius: .5rem;
+        padding: .5rem;
+        
+        h3{
+            font-size: 1.4rem;
+            line-height: 2rem;
+        }
+        
+        .list{
+            
+            li{
+                display: flex;
+                line-height: 2rem;
+                padding: .5rem 0;
+                
+                .title{
+                    flex: 2;
+                }
+                
+                .num{
+                    flex: 1;
+                    text-align: center;
+                }
+                
+                .price{
+                    flex: 1;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

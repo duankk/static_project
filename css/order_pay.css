@@ -1,0 +1,61 @@
+.order_content {
+  padding: 1rem; }
+  .order_content .order_pay {
+    border-radius: .5rem;
+    background: #FFFFFF; }
+    .order_content .order_pay h3 {
+      font-size: 2rem;
+      text-align: center;
+      line-height: 4rem;
+      padding-top: 1rem; }
+    .order_content .order_pay .order_pay_detail {
+      display: flex;
+      padding: 1rem;
+      border-bottom: 1px solid #EEEEEE; }
+      .order_content .order_pay .order_pay_detail .d_num {
+        flex: 1; }
+      .order_content .order_pay .order_pay_detail .p_num {
+        flex: 1; }
+      .order_content .order_pay .order_pay_detail .order_time {
+        flex: 1; }
+    .order_content .order_pay .order_pay_info {
+      display: flex;
+      line-height: 5rem;
+      padding: 1rem; }
+      .order_content .order_pay .order_pay_info .price_info {
+        flex: 1; }
+        .order_content .order_pay .order_pay_info .price_info .price {
+          font-size: 2rem;
+          color: red; }
+      .order_content .order_pay .order_pay_info .pay_button {
+        width: 10rem;
+        text-align: center;
+        border: 1px solid #FF0000;
+        height: 3rem;
+        line-height: 3rem;
+        margin-top: 1rem;
+        border-radius: .5rem;
+        background: red;
+        color: #FFFFFF; }
+  .order_content .order_list {
+    margin-top: 1rem;
+    background: #FFFFFF;
+    border-radius: .5rem;
+    padding: .5rem; }
+    .order_content .order_list h3 {
+      font-size: 1.4rem;
+      line-height: 2rem; }
+    .order_content .order_list .list li {
+      display: flex;
+      line-height: 2rem;
+      padding: .5rem 0; }
+      .order_content .order_list .list li .title {
+        flex: 2; }
+      .order_content .order_list .list li .num {
+        flex: 1;
+        text-align: center; }
+      .order_content .order_list .list li .price {
+        flex: 1;
+        text-align: center; }
+
+/*# sourceMappingURL=order_pay.css.map */
